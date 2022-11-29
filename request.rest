@@ -1,0 +1,13 @@
+###
+GET http://localhost:8080/albums
+
+###
+POST http://localhost:8080/albums/create
+Content-Type: "application/json"
+
+{
+    "id": "4",
+    "title": "One Only",
+    "artist": "Pamungkas",
+    "price": 10.00
+}
