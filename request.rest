@@ -11,3 +11,6 @@ Content-Type: "application/json"
     "artist": "Pamungkas",
     "price": 10.00
 }
+
+###
+GET http://localhost:8080/albums/1
